@@ -19,7 +19,7 @@ class Queue:
         return None
 
 
-if __name__ == "__main__":
+def run_queue():
     letter_queue = Queue()
     last_name = "FORMENTERA"
 
@@ -32,3 +32,7 @@ if __name__ == "__main__":
         letter_queue.dequeue()
 
     print("\nQueue is now empty!")
+
+
+if __name__ == "__main__":
+    run_queue()

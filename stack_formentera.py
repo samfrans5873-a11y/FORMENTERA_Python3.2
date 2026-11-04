@@ -19,7 +19,7 @@ class Stack:
         return None
 
 
-if __name__ == "__main__":
+def run_stack():
     letter_stack = Stack()
     last_name = "FORMENTERA"
 
@@ -32,3 +32,7 @@ if __name__ == "__main__":
         letter_stack.pop()
 
     print("\nStack is now empty!")
+
+
+if __name__ == "__main__":
+    run_stack()
